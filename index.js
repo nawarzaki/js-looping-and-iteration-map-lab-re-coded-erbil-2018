@@ -19,7 +19,7 @@ let y = x.map(function (c) {
 
 function attributesToPhrase(drivers) {
   let x = drivers.map(function (c) {
-    return  (`${c['name']} is from ${c['hometown']}`)
+    return  (`${c.name} is from ${c.hometown}`)
   })
   return x
 }
