@@ -17,6 +17,13 @@ let y = x.map(function (c) {
     return  Object.assign({firstName: c[0], lastName: c[1] })
 })
 
+function attributesToPhrase(drivers) {
+  let x = drivers.map(function (c) {
+    return  (`${c['name']} is from ${c['hometown']}`)
+  })
+  return x
+}
+
 
 
     return y
